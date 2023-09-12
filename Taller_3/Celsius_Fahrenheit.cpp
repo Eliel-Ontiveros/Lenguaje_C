@@ -1,5 +1,9 @@
-//Eliel Alfonso Ontiveros Ojeda_368746
-//Convertir de Grados Celsius a Grados Fahrenheit
+/*
+Celsius_Fahrenheit
+Eliel Alfonso Ontiveros Ojeda_368746
+05-Sep-2023
+Programa que pueda convertir de Grados Celsius a Grados Fahrenheit
+*/
 
 #include <stdio.h> //Agregamos las librerias que utilizaremos
 

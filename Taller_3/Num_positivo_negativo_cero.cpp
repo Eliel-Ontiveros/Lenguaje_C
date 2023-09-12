@@ -1,5 +1,9 @@
-//Eliel Alfonso Ontiveros Ojeda_368746
-//Determinar si un numero es positivo, negativo o cero
+/*
+Num_positivo_negativo_cero
+Eliel Alfonso Ontiveros Ojeda_368746
+05-Sep-2023
+Programa que pueda determinar si un numero es positivo, negativo o cero
+*/
 
 #include <stdio.h> //Agregamos las librerias que utilizaremos
 

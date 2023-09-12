@@ -1,5 +1,9 @@
-//Eliel Alfonso Ontiveros Ojeda_368746
-//Resolver la expresion aritmetica: (a * b + c) / (b - a)
+/*
+Exp_Aritmetica
+Eliel Alfonso Ontiveros Ojeda_368746
+05-Sep-2023
+Programa que pueda resolver la expresion aritmetica: (a * b + c) / (b - a) con valores fijos
+*/
 
 #include <stdio.h> //Agregamos las librerias que utilizaremos
 

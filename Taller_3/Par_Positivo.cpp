@@ -1,5 +1,9 @@
-//Eliel Alfonso Ontiveros Ojeda_368746
-//Determinar si un numero es par y negativo al mismo tiempo
+/*
+Par_PositivoS
+Eliel Alfonso Ontiveros Ojeda_368746
+05-Sep-2023
+Programa que pueda determinar si un numero es par y negativo al mismo tiempo
+*/
 
 #include <stdio.h> //Agregamos las librerias que utilizaremos
 

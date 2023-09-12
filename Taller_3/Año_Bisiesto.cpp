@@ -1,5 +1,9 @@
-//Eliel Alfonso Ontiveros Ojeda_368746
-//Ingresar un año y determinar si es bisiesto o no
+/*
+Año_Bisiesto
+Eliel Alfonso Ontiveros Ojeda_368746
+05-Sep-2023
+Pograma donde el usuario pueda ingresar un año y determinar si es bisiesto o no
+*/
 
 #include <stdio.h> //Agregamos las librerias que utilizaremos
 

@@ -1,3 +1,9 @@
+/*
+Descuentos_Membresia
+Eliel Alfonso Ontiveros Ojeda_368746
+08-Sep-2023
+Programa que calcula si se le debe aplicar descuento a un cliente dependiendo de la cantidad de compra y si cuenta con una membresia
+*/
 #include <stdio.h>
 
 int main()

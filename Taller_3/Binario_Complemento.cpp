@@ -2,7 +2,7 @@
 Decimal_Binario
 Eliel_Alfonso_Ontiveros_Ontiveros_368746
 08-Sep-2023
-Crear un programa que permita a los usuarios ingresar un número entero, especificar
+Programa que permita a los usuarios ingresar un número entero, especificar
 el número de bits que se deben considerar y luego analizar el número en términos de
 bits encendidos, posiciones y representación binaria.
 */
