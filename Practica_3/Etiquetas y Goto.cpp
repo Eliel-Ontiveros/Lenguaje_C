@@ -1,4 +1,10 @@
-//Juego de adivinanza de numeros con Etiquetas y "Goto"
+/*
+Etiquetas y Goto
+Eliel Alfonso Ontiveros Ojeda_368746
+08-Sep-2023
+Juego de adivinanza de numeros con Etiquetas y "Goto"
+*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
