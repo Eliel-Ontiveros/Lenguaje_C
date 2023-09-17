@@ -22,7 +22,8 @@ void calcularFactorial(int n) //Declaramos nuestra funcion para calcular el fact
 
 int main() //Iniciamos nuestra funcion principal
 {
-    int n, opcion; //Declaramos la variable donde guardaremos el valor al cual se le calculara su factorial
+    int n; //Declaramos la variable donde guardaremos el valor al cual se le calculara su factorial
+    int opcion; //Declaramos la variable donde guardaremos el valor de la opcion de repetir la funcion
 
     do
     {
@@ -34,9 +35,10 @@ int main() //Iniciamos nuestra funcion principal
     printf("\n1 - Calcular factorial de otro numero\n");
     printf("2 - Terminar programa\n");
     printf("Ingrese la opcion que desee\n");
-    scanf(" %d", &opcion);
+    scanf(" %d", &opcion); //Escanea y guarda la opcion que eligio el usuario
     }
     while (opcion == 1); //Miestras opcion sea igual a 1 el programa volvera a ejecutarse
+    
     printf("Finalizando programa\n"); //Si opcion es igual a 2 el programa finalizara y se imprimira que este acaba de finalizar
 
     return 0; //Termina nuestra funcion principal
