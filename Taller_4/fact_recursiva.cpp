@@ -5,11 +5,11 @@ Eliel Alfonso Ontiveros Ojeda_368746
 Calcular el factorial de un número entero utilizando una función recursiva
 */
 
-#include <stdio.h>
+#include <stdio.h> //Agregamos las librerias que utilizaremos
 
-int calcularFactorial(int n) 
+int calcularFactorial(int n) //Declaramos nuestra funcion para calcular el factorial de n y desarrollamos la funcion, en este caso sera una funcion recursiva
 {
-    if(n == 0) 
+    if(n == 0) //Condicional en la cual se verifica que n llegue hasta 0, para de esta forma deterner a la funcion en ese punto
     {
         return 1;
     }
@@ -18,15 +18,23 @@ int calcularFactorial(int n)
 
 int main() 
 {
-    int n;
+    int n, opcion;
 
-        printf("Ingresa un numero entero no negativo: ");
+    do
+    {
+        printf("\nIngresa un numero entero\n");
         scanf("%d", &n);
-        if(n < 0) 
-        {
-            printf("Numero invalido. Por favor, ingresa un numero no negativo.\n");
-        }
-        printf("El factorial de %d es  = %d", n, calcularFactorial(n));
+
+        printf("El factorial de %d es  = %d\n", n, calcularFactorial(n));
+
+        printf("\n1 - Calcular factorial de otro numero\n");
+        printf("2 - Terminar programa\n");
+        printf("Ingrese la opcion que desee\n");
+        scanf(" %d", &opcion);
+    }
+    while (opcion == 1);
+
+    printf("\nFinalizando programa");
 
     return 0;
 
