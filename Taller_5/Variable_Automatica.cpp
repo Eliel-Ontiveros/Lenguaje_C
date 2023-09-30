@@ -1,3 +1,10 @@
+/*
+Variable_Automatica
+Eliel Alfonso Ontiveros Ojeda_368746
+28-Sep-2023
+Declara una variable automática llamada contador en una funcion. Incrementa su valor en un bucle y muestra su valor en cada iteracion.
+*/
+
 #include <stdio.h>
 
 void funcion() 

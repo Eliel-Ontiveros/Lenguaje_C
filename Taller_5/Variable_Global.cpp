@@ -1,3 +1,10 @@
+/*
+Variable_Global
+Eliel Alfonso Ontiveros Ojeda_368746
+28-Sep-2023
+Declara una variable global llamada pi con un valor de 3.14159 y otra variable local con el mismo nombre en una funcion (Con diferente valor).
+*/
+
 #include <stdio.h>
 
 double pi = 3.14159;  // Variable global

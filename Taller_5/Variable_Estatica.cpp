@@ -1,3 +1,11 @@
+/*
+Variable_Estatica
+Eliel Alfonso Ontiveros Ojeda_368746
+28-Sep-2023
+Declara una variable estatica llamada contador en una funcion y muestra su valor en cada llamada a la funcion.
+*/
+
+
 #include <stdio.h>
 
 void funcion() 

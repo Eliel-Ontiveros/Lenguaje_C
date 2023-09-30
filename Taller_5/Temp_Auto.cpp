@@ -1,3 +1,10 @@
+/*
+Temp_Auto
+Eliel Alfonso Ontiveros Ojeda_368746
+28-Sep-2023
+Declara una variable de registro llamada temp y otra automatica llamada valor en una funcion.
+*/
+
 #include <stdio.h>
 
 void funcion() 
