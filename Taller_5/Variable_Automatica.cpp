@@ -11,10 +11,9 @@ void funcion()
 
 int main() 
 {
-    
-    for(int i = 0; i < 10; i++) 
-    {
-        funcion();
-    }
+
+    funcion();
+
     return 0;
 }
+
