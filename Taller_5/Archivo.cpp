@@ -17,3 +17,10 @@ int main()
     modificarSaldoOtroArchivo();
     return 0;
 }
+
+/*
+¿Cómo afecta la visibilidad y el tiempo de vida de la variable externa?
+La variable saldo se declara en Otro_Archivo.c y se modifica tanto en Otro_Archivo.cpp como en Archivo.cpp; 
+como saldo es una variable externa, mantiene su valor entre las modificaciones en ambos archivos. 
+Esto es porque saldo es visible a lo largo de todo el programa y su tiempo de vida es a lo largo de toda la ejecución del programa.
+*/
