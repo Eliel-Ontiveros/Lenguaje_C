@@ -1,3 +1,10 @@
+/*
+Practica_Clase de Almacenamiento
+Eliel Alfonso Ontiveros Ojeda_368746
+30-Sep-2023
+Programa en donde se le pida al usuario que opcion es la que quiere realizar, Jugar Loteria o Jugar a las Carreras de Coches
+*/
+
 #include <stdio.h> // Incluye la biblioteca estándar de entrada y salida
 #include <time.h> // Incluye la biblioteca de tiempo para funciones relacionadas con el tiempo
 #include <stdlib.h> // Incluye la biblioteca estándar de la biblioteca
