@@ -37,6 +37,7 @@ int msgs()
     printf("4 - Concatenar Arreglo\n");
     printf("5 - Comparar Arreglos\n");
     printf("6 - Encontrar Elemento Maximo De Arreglo\n");
+    printf("0 - Salir del Programa\n");
     scanf("%d", &op);
 
     return op;
@@ -58,6 +59,7 @@ void menu()
         case 1:
             llenar_vector(vect_1, 15, 1, 20);    
             llenar_vector(vect_2, 15, 1, 20);
+            break;
 
         case 2:
             suma_arreglo();
