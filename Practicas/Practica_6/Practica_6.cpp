@@ -20,9 +20,8 @@ int encon_elem_maxim();
 int main()
 {
     menu();
-
+    
     return 0;
-
 }
 
 
@@ -32,11 +31,12 @@ int msgs()
     int op;
     system ("CLS");
     printf("----MENU----\n");
-    printf("1 - Suma de Arreglos\n");
-    printf("2 - Copiar Arreglo\n");
-    printf("3 - Concatenar Arreglo\n");
-    printf("4 - Comparar Arreglos\n");
-    printf("5 - Encontrar Elemento Maximo De Arreglo\n");
+    printf("1 - Llenar vectores\n");
+    printf("2 - Suma de Arreglos\n");
+    printf("3 - Copiar Arreglo\n");
+    printf("4 - Concatenar Arreglo\n");
+    printf("5 - Comparar Arreglos\n");
+    printf("6 - Encontrar Elemento Maximo De Arreglo\n");
     scanf("%d", &op);
 
     return op;
@@ -47,29 +47,35 @@ int msgs()
 void menu()
 {
     int op;
-    
+    int vect_1[15];
+    int vect_2[15];
+
     do
     {
         op = msgs();
         switch (op)
         {
         case 1:
+            llenar_vector(vect_1, 15, 1, 20);    
+            llenar_vector(vect_2, 15, 1, 20);
+
+        case 2:
             suma_arreglo();
             break;
 
-        case 2:
+        case 3:
             copiar_arreglo();
             break;
 
-        case 3:
+        case 4:
             concat_arreglo();
             break;
 
-        case 4:
+        case 5:
             compara_arreglo();
             break;
 
-        case 5:
+        case 6:
             encon_elem_maxim();
             break;
         
