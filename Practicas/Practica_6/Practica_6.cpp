@@ -7,9 +7,7 @@ Deberás crear un menú interactivo que permita al usuario elegir entre varias o
 Las operaciones incluirán la suma de elementos de un arreglo, la copia de arreglos, la concatenación de arreglos y la comparación de arreglos.
 */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "chntoky.h"
 
 void menu(void);
 int msgs();
