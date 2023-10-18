@@ -13,29 +13,29 @@ int sumaAElementos(int *ptr, int num);
 
 int main()
 {
+    system("CLS");
     srand(time(NULL));
     int num = 4;
     int arreglo[10];
     int *ptr = &arreglo[0];
     for (int i = 0; i < 10; i++)
     {
-        arreglo[i] = 1 + rand() % 20;
+        arreglo[i] = 100 + rand() % 400;
     }
-    
-    for (int i = 0; i < 10 ; i++)
+
+    printf("---Arreglo Original---\n");
+    for (int i = 0; i < 10; i++)
     {
         printf("Elemento %d es = %d\n", i, arreglo[i]);
     }
 
     sumaAElementos(ptr, num);
 
+    printf("---Arreglo Modificado---\n");
     for (int i = 0; i < 10; i++)
     {
         printf("Elemento %i es = %d\n", i, ptr[i]);
-        ptr ++;
     }
-    
-    
 
     return 0;
 }
@@ -46,5 +46,5 @@ int sumaAElementos(int *ptr, int num)
     {
         ptr[i] += num;
     }
-
+    return *ptr;
 }
