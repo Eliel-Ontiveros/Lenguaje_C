@@ -10,6 +10,7 @@ void imprimir_matriz(int matriz[4][4], char *nombre);
 void ordenar_vector(int *vector, int tam);
 int buscar_vector(int *vector, int tam, int valor);
 int busq_sec_ord (int vect[], int n, int num);
+int pal_inconv(int vect[]);
 
 // VALIDAR NUMERO ENTERO
 int validar_num(char mensaje[], int ri, int rf)
