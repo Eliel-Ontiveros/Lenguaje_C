@@ -1,0 +1,3 @@
+33968      gato       jose       caca       12        
+0                                           0         
+34886      perro      pepe       cacner     12        
