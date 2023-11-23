@@ -1,0 +1,2 @@
+Nombre: FALO 	 Cantidad: 211 	 Precio: 20000.00
+Nombre: FALO 	 Cantidad: 2000 	 Precio: 3000.00
